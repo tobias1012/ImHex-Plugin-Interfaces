@@ -8,10 +8,10 @@
 #include <hex/providers/provider.hpp>
 #include <hex/helpers/intrinsics.hpp> // Unused function
 
-class InterfaceProvider : public hex:prv:Provider
+class InterfaceProvider : public hex::prv::Provider
 {
 public:
-    InterfaceProvider : hex::prv::Provider(){};
+    InterfaceProvider : hex::prv::Provider() {};
     ~InterfaceProvider() override = default;
 
     [[nodiscard]] bool isAvailable() const override {return true;}
