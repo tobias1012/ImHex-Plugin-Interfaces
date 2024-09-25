@@ -56,9 +56,9 @@ add_subdirectory($ENV{IMHEX_SDK_PATH} ImHexSDK)
 # as well as libwolv, libromfs, libfmt and ImGui, but you can link against any libraries you want
 add_imhex_plugin(
     NAME
-        example_plugin
+        interface_plugin
     SOURCES
-        source/example_plugin.cpp
+        source/interface_plugin.cpp
     INCLUDES
         include
 )
